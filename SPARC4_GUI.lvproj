@@ -269,7 +269,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3746E8ED-76B3-4BA2-AE52-1EDB3C3BC379}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">s4gui.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/S4GUI/s4gui.exe</Property>
@@ -286,7 +286,7 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/S4GUI/LOG files</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BD4DB7DC-48B8-4051-B13D-F9D11F552E30}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A0C2C7E0-B324-4AEB-BFE7-9FEABE6B91CC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/S4GUI.vi</Property>
