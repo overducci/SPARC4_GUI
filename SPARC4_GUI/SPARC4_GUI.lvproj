@@ -273,7 +273,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3746E8ED-76B3-4BA2-AE52-1EDB3C3BC379}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">s4gui.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/S4GUI/s4gui.exe</Property>
@@ -291,7 +291,7 @@
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/sagui2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{646EEF6A-53C6-43E0-8032-5F712B46198C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DEB9F8A4-3664-499F-8F57-E8CF78515E80}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/S4GUI.vi</Property>
