@@ -17,9 +17,11 @@
 			<Item Name="lastFocusTable.cfg" Type="Document" URL="../Config/lastFocusTable.cfg"/>
 			<Item Name="lastsaved.cfg" Type="Document" URL="../Config/lastsaved.cfg"/>
 			<Item Name="lasttemp.cfg" Type="Document" URL="../Config/lasttemp.cfg"/>
+			<Item Name="lastTabAcqType.cfg" Type="Document" URL="../../../../../../observer/sparc4/s4gui/Config/lastTabAcqType.cfg"/>
 		</Item>
 		<Item Name="LOG files" Type="Folder"/>
 		<Item Name="Msg VIs" Type="Folder">
+			<Item Name="MsgSetTemp.vi" Type="VI" URL="../MsgSetTemp.vi"/>
 			<Item Name="MsgAbortSync.vi" Type="VI" URL="../MsgAbortSync.vi"/>
 			<Item Name="MsgPauseSync.vi" Type="VI" URL="../MsgPauseSync.vi"/>
 			<Item Name="MsgStopSync.vi" Type="VI" URL="../MsgStopSync.vi"/>
@@ -125,6 +127,8 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="VerifOnePos.vi" Type="VI" URL="../S4GUI/VerifOnePos.vi"/>
 		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
+		<Item Name="sagui.ico" Type="Document" URL="../sagui.ico"/>
+		<Item Name="sagui2.ico" Type="Document" URL="../sagui2.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -269,7 +273,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3746E8ED-76B3-4BA2-AE52-1EDB3C3BC379}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">41</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">s4gui.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/S4GUI/s4gui.exe</Property>
@@ -286,7 +290,8 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/S4GUI/LOG files</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BD4DB7DC-48B8-4051-B13D-F9D11F552E30}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/sagui2.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DEB9F8A4-3664-499F-8F57-E8CF78515E80}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/S4GUI.vi</Property>
